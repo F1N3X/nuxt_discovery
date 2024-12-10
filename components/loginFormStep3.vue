@@ -3,7 +3,7 @@
     const step = inject('step')
 
     function handleNextStep() {
-        if (form.validateForm2()) {
+        if (form.validateForm3()) {
             step.value = 4
         } else {
             alert('Veuillez remplir tous les champs.')
