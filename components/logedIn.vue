@@ -9,10 +9,10 @@
         </header>
         <div>
             <h1>Profile</h1>
-            <p>First name: {{ form.values.firstname }}</p>
-            <p>Last name: {{ form.values.lastname }}</p>
+            <p>Name : {{ form.values.name }}</p>
             <p>Age: {{ form.values.age }}</p>
             <p>Email: {{ form.values.email }}</p>
+            <p>Username: {{ form.values.username }}</p>
         </div>
     </div>
 </template>
